@@ -25,7 +25,10 @@ header, section, footer {
 }
 
 img {
-  max-width: 100%;
-  height: auto;
-  margin: 10px 0;
+  width: 300px;        /* Largura fixa */
+  height: 200px;       /* Altura fixa */
+  object-fit: cover;   /* Corta a imagem mantendo o enquadramento bonito */
+  border-radius: 8px;  /* Canto arredondado opcional */
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra sutil */
 }
