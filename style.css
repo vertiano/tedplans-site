@@ -25,8 +25,8 @@ header, section, footer {
 }
 
 img {
-  width: 500px;        /* Largura fixa */
-  height: 500px;       /* Altura fixa */
+  width: 200px;        /* Largura fixa */
+  height: 200px;       /* Altura fixa */
   object-fit: cover;   /* Corta a imagem mantendo o enquadramento bonito */
   border-radius: 8px;  /* Canto arredondado opcional */
   margin: 10px;
